@@ -538,17 +538,15 @@ body {
     height: 600px;
     background: #f6f6f6;
     text-align: center;
+    padding-top: 70px;
 
 }
 
 .drones-in {
     height:292px;
     width: 329px;
-    background: green;
     display: inline-block;
-
 }
-
 
 .drones-in p {
     color: #5e6372;
@@ -557,7 +555,7 @@ body {
 }
 .drones-in h2 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .button {
@@ -588,14 +586,15 @@ body {
     margin-top: px;
     margin-right: 20px;
     font-size: 24px;
-    border: solid 1px #5e6372;
+    border: solid 1px #a7acbc;
+    color: #3f4e76;
 
 }
 
 .dronetech {
     height: 690px;
     padding-top: 70px;
-
+    overflow: hidden;
 
 }
 .dronetech-bgr {
@@ -607,10 +606,8 @@ body {
 }
 
 .article {
-    height: 201px;
-    width: 990px;
-    margin-top: 40px;
-
+    height: 170px;
+    width: 589px;
 }
 
 .article h3 {
@@ -623,79 +620,104 @@ body {
     line-height: 40px;
 }
 
+.point {
+    width: 100%;
+    height: 111px;
+    padding-top: 30px;
+}
+.point p {
+    color: #a7acbc;
+}
+
+
 .listing {
     height: 332px;
     width: 990px;
 }
 
-
-.listingl {
-    height: 300px;
-    width: 495px;
-    float: left;
-}
-
-.listingr {
-    height: 332px;
-    width: 495px;
-    float: right;
-}
-
-.point {
-    width: 495px;
-    height: 111px;
-    padding-top: 30px;
-}
 .listing p {
     margin: 0px;
 }
 
-.movecol {
-    float: right;
-}
-
 .columnl {
     float: left;
+    width: 50%;
 }
 .columnr {
     float: right;
+    width: 50%;
 }
 
 .dronesnature {
     height: 640px;
-    background-color: #264699;
+    background-color: #f6f6f6;
 }
-.dronesnaturebgr {
-    background-image: url("../images/sea.jpg");
-    width: 959px;
-    height: 640px;
-    float: left;
-}
-.dronesnatureart {
+
+.dronesnature-article {
+    height: 170px;
+    width: 589px;
     float: right;
-    width: 1427px;
-    height: 640px;
     background: #f6f6f6;
+    margin-top: 176px;
+
+}
+
+.dronesnature-article h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.dronesnature-article p {
+    font-size: 18px;
+    color: #5e6372;
+    margin: 0px;
+    line-height: 42px;
+}
+
+.dronesnature-bgr {
+    background: url("../images/sea.jpg") ;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-size: cover;
 }
 
 .dronescity {
     height: 641px;
+    background-color: #f6f6f6;
 }
 
-.dronescitybgr{
-    background-image: url("../images/city.jpg");
-    width: 957px;
-    height: 641px;
+.dronescity-article {
+    height: 219px;
+    width: 589px;
     float: right;
-
+    background: #f6f6f6;
+    margin-top: 169px;
 }
 
-.dronescityart {
-    width: 1000px;
-    height: 641px;
-
-
+.dronescity-article h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
 }
+
+.dronescity-article p {
+    font-size: 18px;
+    color: #5e6372;
+    margin: 0px;
+    line-height: 42px;
+}
+
+.dronescity-bgr{
+    background-image: url("../images/city.jpg");
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-size: cover;
+}
+
+
 
 
 /* !main */
