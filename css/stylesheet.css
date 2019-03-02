@@ -463,28 +463,45 @@ body {
 
 .header-nav {
     float: right;
-    width: 50%;
+    width: calc(50% - 51px);
     height: 130px;
     line-height: 130px;
     overflow: hidden;
 }
+
+.header-nav .button {
+    float: right;
+    width: 102px;
+    margin-top: 40px;
+    background: transparent;
+    border: white 1px solid;
+    text-align: center;
+    padding: 0;
+}
+
+.header-nav .button a {
+    padding: 0;
+}
+
 .header-nav ul {
     padding: 0;
     margin: 0;
 }
 
-
 .header-nav li {
     display: inline-block;
+
 }
 
 .header-nav a {
-    color: wheat;
+    color: white;
+    padding-right: 32px;
+    text-decoration: none;
 }
 .contact {
     background: none;
     display: block;
-    width: 208px;
+    width: 102px;
     height: 50px;
     border-radius: 25px;
     border: 1px solid white;
@@ -510,6 +527,18 @@ body {
 
 .hello-in {
     padding-top: 174px;
+}
+
+.hello-in .button {
+    background: transparent;
+    border: white 1px solid;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.hello-in .button a {
+    color: white;
+    text-decoration: none;
 }
 
 .hello li {
