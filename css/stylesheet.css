@@ -436,6 +436,46 @@ body {
     margin-left:  auto;
 }
 
+.content {
+    margin-top: -130px;
+}
+
+.button {
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    color: white;
+    background-color: #264699;
+    background-image: linear-gradient(left, rgba(38,70,153,1) 0%, rgba(73,155,234,1) 100%);
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 98px;
+    font-size: 18px;
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin-top: px;
+    margin-right: 20px;
+    font-size: 24px;
+    border: solid 1px #a7acbc;
+    color: #3f4e76;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(right, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .header {
     height: 130px;
@@ -449,7 +489,6 @@ body {
     line-height: 130px;
 }
 
-
 .header-logo-bold {
     display: inline-block;
     padding-top: 0px;
@@ -459,6 +498,7 @@ body {
 
 .header-logo-light {
     display: inline-block;
+    color: white;
 }
 
 .header-nav {
@@ -467,6 +507,7 @@ body {
     height: 130px;
     line-height: 130px;
     overflow: hidden;
+    opacity: 0.7;
 }
 
 .header-nav .button {
@@ -477,6 +518,7 @@ body {
     border: white 1px solid;
     text-align: center;
     padding: 0;
+    font-size: 18px;
 }
 
 .header-nav .button a {
@@ -490,7 +532,6 @@ body {
 
 .header-nav li {
     display: inline-block;
-
 }
 
 .header-nav a {
@@ -498,6 +539,7 @@ body {
     padding-right: 32px;
     text-decoration: none;
 }
+
 .contact {
     background: none;
     display: block;
@@ -508,12 +550,6 @@ body {
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-}
-
-
-.content {
-    margin-top: -130px;
-
 }
 
 .hello {
@@ -529,26 +565,9 @@ body {
     padding-top: 174px;
 }
 
-.hello-in .button {
-    background: transparent;
-    border: white 1px solid;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-.hello-in .button a {
-    color: white;
-    text-decoration: none;
-}
-
-.hello li {
-    display: inline-block;
-}
-
 .hello h1 {
     font-size: 48px;
     font-weight: 700;
-
 }
 
 .hello p {
@@ -557,7 +576,64 @@ body {
     font-weight: 400;
 }
 
-.gradient-text {
+.buttons {
+
+}
+
+.buttons ul {
+    display: inline-block;
+}
+
+.leftbutton .button{
+    background: white;
+    text-align: center;
+    border: white 1px solid;
+}
+
+
+.leftbutton .button a {
+    text-decoration: none;
+    background: -webkit-linear-gradient(right, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.leftbutton .button:hover{
+    background: transparent;
+    text-align: center;
+    border: white 1px solid;
+    color: white;
+    text-decoration: none;
+}
+
+.leftbutton .button:hover a {
+
+}
+
+.rightbutton .button {
+    background: transparent;
+    text-align: center;
+    border: white 1px solid;
+    opacity: 0.5;
+}
+
+.rightbutton .button a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.rightbutton .button:hover {
+    background: white;
+    border: white 1px solid;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.rightbutton .button:hover a {
+    text-decoration: none;
     background: -webkit-linear-gradient(right, red, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -568,7 +644,6 @@ body {
     background: #f6f6f6;
     text-align: center;
     padding-top: 70px;
-
 }
 
 .drones-in {
@@ -587,39 +662,6 @@ body {
     font-weight: bold;
 }
 
-.button {
-    width: 205px;
-    height: 50px;
-    line-height: 50px;
-    display: block;
-    color: white;
-    background-color: #264699;
-    background-image: linear-gradient(left, rgba(38,70,153,1) 0%, rgba(73,155,234,1) 100%);
-    border-radius: 25px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 98px;
-    font-size: 18px;
-
-}
-
-.round {
-    width: 50px;
-    height: 50px;
-    display: block;
-    background: white;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 50px;
-    float: left;
-    margin-top: px;
-    margin-right: 20px;
-    font-size: 24px;
-    border: solid 1px #a7acbc;
-    color: #3f4e76;
-
-}
-
 .dronetech {
     height: 690px;
     padding-top: 70px;
@@ -627,11 +669,8 @@ body {
 
 }
 .dronetech-bgr {
-    background-image: url("../images/copter.png");
-    width: 750px;
-    height: 565px;
-    background-color: #264699;
-    float: right;
+    background: url("../images/copter.png") no-repeat;
+    background-position: right;
 }
 
 .article {
@@ -743,7 +782,6 @@ body {
 .dronescity-article a {
     text-decoration: none;
     color: white;
-
 }
 
 .dronescity-article h3 {
